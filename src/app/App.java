@@ -42,7 +42,7 @@ public class App {
     }
 
     private static String processData() {
-        merchantA = new MerchantA(merchantName, phone, email);
+        merchantA = new MerchantA(merchantName,merchantSurname, phone, email);
         infoMerchant = merchantA.infoMerchant();
         product = new ProductA(productName, quantity, price);
         infoProduct = product.infoProduct();
