@@ -22,6 +22,7 @@ public class App {
         showData(processData());
     }
 
+
     private static void doInputs() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter merchant name: ");
