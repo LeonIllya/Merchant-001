@@ -15,7 +15,7 @@ public class App {
     static MerchantA merchantA;
     static String infoMerchant;
     static String infoProduct;
-    static String surname;
+    static String merchantSurname;
 
     public static void main(String[] args) {
         doInputs();
@@ -27,7 +27,7 @@ public class App {
         System.out.print("Enter merchant name: ");
         merchantName = scanner.nextLine();
         System.out.println("Enter merchant surname: ");
-        surname = scanner.nextLine();
+        merchantSurname = scanner.nextLine();
         System.out.print("Enter merchant phone: ");
         phone = scanner.nextLine();
         System.out.print("Enter merchant email: ");
